@@ -11,8 +11,8 @@ function App() {
     <div className="w-full bg-theme1">
       <Navbar />
       <Header />
-      <Services />
       <About />
+      <Services />
       <Footer />
     </div>
   )

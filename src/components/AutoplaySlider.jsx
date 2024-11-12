@@ -21,7 +21,7 @@ const AutoplaySlider = () => {
       slidesPerView={1}
       loop={true}
       autoplay={{
-        delay: 500,
+        delay: 800,
         disableOnInteraction: false,
       }}
       // pagination={{ clickable: true }}
