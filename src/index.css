@@ -1,6 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+/* Swiper pagination dot color */
+.swiper-pagination-bullet {
+  background-color: #afadff!important; /* Custom color for dots */
+  width:30px!important;
+  height:5px!important;
+  border-radius: 0!important;
+  margin:0!important;
+}
+
+/* Active dot color */
+.swiper-pagination-bullet-active {
+  background-color: #605af9!important; /* Different color for active dot */
+}
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
