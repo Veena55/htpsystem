@@ -57,7 +57,7 @@ export const Services = () => {
                 top: "100%",
                 scrollTrigger: {
                     trigger: service.current,
-                    start: "top -10%",
+                    start: "top 5%",
                     end: "bottom 80%",
                     scrub: 1, // Increased scrub for smoother and slower animation
                     ease: "power2.out", // Ease for smoother movement
@@ -73,7 +73,7 @@ export const Services = () => {
                 height: "100%",
                 scrollTrigger: {
                     trigger: service.current,
-                    start: "top -10%",
+                    start: "top 5%",
                     end: "bottom 80%",
                     scrub: 1, // Increased scrub for smoother and slower animation
                     ease: "power2.out", // Ease for smoother movement
@@ -84,9 +84,9 @@ export const Services = () => {
     }, []);
 
     return (
-        <div className='bg-theme1 text-center pt-10 pb-32 px-32' ref={service}>
+        <div className='bg-theme1 text-center pt-10 pb-32 px-32'>
             <h2 className='text-5xl text-htpSystem font-medium'>Services</h2>
-            <div className="relative min-h-screen my-5">
+            <div className="relative min-h-screen my-5" ref={service}>
                 <div className='w-1 min-h-screen bg-white absolute left-1/2 right-1/2 bottom-0 top-10'></div>
                 <div className='w-1 bg-htpSystem absolute left-1/2 right-1/2 top-10 h-0' ref={activeBar}></div>
                 <div className='w-7 h-7 z-20 bg-white rounded-full absolute left-1/2 -translate-x-3 right-1/2 bottom-0 top-10 border-htpSystem border-[5px]'
