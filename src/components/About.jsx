@@ -39,7 +39,7 @@ export const About = () => {
             ease: "power3.out", // Smooth easing for a soft fade
             scrollTrigger: {
                 trigger: about_container.current,
-                start: "top -20%",
+                start: "top top",
                 end: "bottom bottom",
                 once: true,
                 scrub: true,
@@ -53,18 +53,18 @@ export const About = () => {
     }, []);
 
     return (
-        <div className='px-28 py-10 w-full h-auto bg-top bg-cover bg-no-repeat bg-wallpaper1 mt-2' ref={about_container}>
-            <div className='py-5 flex justify-between items-center'>
-                <div className='w-[40%] opacity-1'>
+        <div className='p-10 lg:px-28 lg:py-10 w-full h-auto bg-top bg-cover bg-no-repeat bg-wallpaper1 mt-2' ref={about_container}>
+            <div className='py-5 flex justify-between items-center flex-col lg:flex-row'>
+                <div className='w-full lg:w-[40%] opacity-1'>
                     <AutoplaySlider />
                 </div>
                 <div
-                    className='text-white text-lg leading-7 text-justify w-1/2 opacity-0' ref={about}
+                    className='text-white text-sm md:text-md lg:text-lg leading-7 text-justify md:w-3/4 lg:w-1/2 opacity-0' ref={about}
                 >
-                    <h2 className='text-4xl text-justify text-htpSystem font-medium'>
+                    <h2 className='text-2xl md:text-3xl lg:text-4xl text-justify text-htpSystem font-medium'>
                         About Us
                     </h2>
-                    <p className='pt-5 text-slate-400 leading-7'>
+                    <p className='lg:pt-5 text-slate-400 leading-7'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
                         distinctio consectetur architecto rerum, qui voluptates quam quod
                         perferendis esse nobis, laudantium saepe quasi provident, quidem

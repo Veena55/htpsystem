@@ -27,7 +27,7 @@ const SideBar = ({ bars }) => {
 
             {/* Sidebar with width transition */}
             <div
-                className={`fixed top-0 right-0 h-full bg-[rgb(96,90,249)] shadow-xl z-[1000] flex flex-col transition-[width] duration-500 ${isVisible ? 'w-[20%]' : 'w-0'
+                className={`fixed top-0 right-0 h-full bg-[rgb(96,90,249)] shadow-xl z-[1000] flex flex-col transition-[width] duration-500 ${isVisible ? 'w-[100vw] md:w-[80vw] lg:w-[20vw]' : 'w-0'
                     }`}
             >
                 <div className="p-5 flex justify-end">

@@ -6,8 +6,8 @@ import logo from '../assets/htpsLogo.png'
 const Footer = () => {
     return (
         <>
-            <div className='bg-themeLight text-white py-20 px-32'>
-                <div className="grid grid-cols-5 justify-between gap-10">
+            <div className='bg-themeLight text-white p-10 lg:py-20 lg:px-32'>
+                <div className="grid grid-col-2 md:grid-cols-2 lg:grid-cols-5 justify-start lg:justify-between lg:gap-10">
                     <div>
                         <img src={logo} alt="htpsystem-logo" className='scale-105' width={150} height={50} />
                         <div className='mt-8'>
@@ -33,36 +33,36 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <h2 className='text-2xl font-semibold'>Cities</h2>
-                        <div className="pt-2 text-slate-300">
-                            <p className='text-lg text-justify'>Varanasi</p>
-                            <p className='text-lg text-justify'>Gorakhpur</p>
-                            <p className='text-lg text-justify'>Kashi</p>
+                        <h2 className='text-lg font-semibold'>Cities</h2>
+                        <div className="lg:pt-1 text-slate-300">
+                            <p className='text-md text-justify lg:pt-4'>Varanasi</p>
+                            <p className='text-md text-justify lg:pt-4'>Gorakhpur</p>
+                            <p className='text-md text-justify lg:pt-4'>Kashi</p>
                         </div>
                     </div>
                     <div>
-                        <h2 className='text-2xl font-semibold'>Our Services</h2>
-                        <div className="pt-2 text-slate-300">
-                            <p className='text-lg text-justify'>Hardware & Sofware</p>
-                            <p className='text-lg text-justify'>Electronics Repair</p>
-                            <p className='text-lg text-justify'>Water Purifiring</p>
+                        <h2 className='text-lg font-semibold'>Our Services</h2>
+                        <div className="lg:pt-1 text-slate-300">
+                            <p className='text-md text-justify lg:pt-4'>Hardware & Sofware</p>
+                            <p className='text-md text-justify lg:pt-4'>Electronics Repair</p>
+                            <p className='text-md text-justify lg:pt-4'>Water Purifiring</p>
                         </div>
                     </div>
                     <div>
-                        <h2 className='text-2xl font-semibold'>Company</h2>
-                        <div className="pt-2 text-slate-300">
-                            <p className='text-lg text-justify'>About Us</p>
-                            <p className='text-lg text-justify'>Careers</p>
+                        <h2 className='text-lg font-semibold'>Company</h2>
+                        <div className="lg:pt-1 text-slate-300">
+                            <p className='text-md text-justify lg:pt-4'>About Us</p>
+                            <p className='text-md text-justify lg:pt-4'>Careers</p>
                         </div>
                     </div>
                     <div>
-                        <h2 className='text-2xl font-semibold'>Contact Us</h2>
-                        <div className="pt-2 text-slate-300">
-                            <div className='text-lg text-justify flex items-center gap-2'>
+                        <h2 className='text-lg font-semibold'>Contact Us</h2>
+                        <div className="lg:pt-1 text-slate-300">
+                            <div className='text-md text-justify flex items-center gap-2 lg:pt-4'>
                                 <BiPhoneCall className='text-htpSystem text-2xl' />
                                 <p>+91- 9785758645</p>
                             </div>
-                            <div className='text-lg text-justify flex items-center gap-2'>
+                            <div className='text-md text-justify flex items-center gap-2 lg:pt-4'>
                                 <BiMailSend className='text-htpSystem text-2xl' />
                                 <p>info@htpsystem.com</p>
                             </div>

@@ -134,15 +134,15 @@ export const Header = () => {
             </div>
             <div>
                 <Navbar />
-                <div className="relative flex justify-center border-[3px] border-dashed border-indigo-400 p-10 rounded-xl mx-auto w-[50%]"
+                <div className="relative flex justify-center border-[3px] border-dashed border-indigo-400 p-10 rounded-xl mx-auto w-[80vw] sm:w-[60vw] lg:w-[50vw]"
                     ref={header}>
                     <div className="mt-10 5 mx-auto">
                         {/* <h1 className=" text-center text-8xl font-extrabold bg-clip-text text-transparent hover:bg-gradient-to-tr transition-all duration-1000 bg-gradient-to-l from-indigo-400 via-htpSystem to-white">HTPSYSTEM</h1> */}
-                        <h1 className="text-center opacity-0 text-8xl font-bold bg-clip-text text-transparent pb-6 bg-grad hover:bg-gradient-to-l hover:from-[#d2d2d2] hover:to-[#a8a5f4] transition-all duration-1000"
+                        <h1 className="text-center opacity-0 text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold bg-clip-text text-transparent pb-6 bg-grad hover:bg-gradient-to-l hover:from-[#d2d2d2] hover:to-[#a8a5f4] transition-all duration-1000"
                             ref={title}>
                             HtpSystem
                         </h1>
-                        <p className='w-2/3 mx-auto text-slate-400 pb-10 text-lg leading-6 text-center pt-2 opacity-0'
+                        <p className='w-[80%] md:w-2/4 lg:w-2/3 mx-auto text-slate-400 pb-10 text-base sm:text-sm md:text-md lg:text-lg leading-6 text-center pt-2 opacity-0'
                             ref={content}
                         >All in one solution in one platform. Everything you need, all in one place. Simplify, streamline, and succeed on a single platform</p>
                     </div>
@@ -168,7 +168,7 @@ export const Header = () => {
                     </div>
                 </div>
                 {/* Feature Cards */}
-                <div className="flex justify-center gap-10 mt-20 relative z-50">
+                <div className="flex justify-center gap-10 mt-20 px-10 sm:px-32 lg:px-5 relative z-50 flex-col md:flex-row">
                     {features.map((item, index) => <FeatureCards key={index} logo={item.logo} content={item.content} />)}
                 </div>
             </div>
