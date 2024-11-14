@@ -33,7 +33,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <h2 className='text-2xl font-bold'>Cities</h2>
+                        <h2 className='text-2xl font-semibold'>Cities</h2>
                         <div className="pt-2 text-slate-300">
                             <p className='text-lg text-justify'>Varanasi</p>
                             <p className='text-lg text-justify'>Gorakhpur</p>
@@ -41,7 +41,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <h2 className='text-2xl font-bold'>Our Services</h2>
+                        <h2 className='text-2xl font-semibold'>Our Services</h2>
                         <div className="pt-2 text-slate-300">
                             <p className='text-lg text-justify'>Hardware & Sofware</p>
                             <p className='text-lg text-justify'>Electronics Repair</p>
@@ -49,14 +49,14 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <h2 className='text-2xl font-bold'>Company</h2>
+                        <h2 className='text-2xl font-semibold'>Company</h2>
                         <div className="pt-2 text-slate-300">
                             <p className='text-lg text-justify'>About Us</p>
                             <p className='text-lg text-justify'>Careers</p>
                         </div>
                     </div>
                     <div>
-                        <h2 className='text-2xl font-bold'>Contact Us</h2>
+                        <h2 className='text-2xl font-semibold'>Contact Us</h2>
                         <div className="pt-2 text-slate-300">
                             <div className='text-lg text-justify flex items-center gap-2'>
                                 <BiPhoneCall className='text-htpSystem text-2xl' />
