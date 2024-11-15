@@ -53,7 +53,7 @@ export const About = () => {
     }, []);
 
     return (
-        <div className='p-10 lg:px-28 lg:py-10 w-full h-auto bg-top bg-cover bg-no-repeat bg-wallpaper1 mt-2' ref={about_container}>
+        <div className='p-10 lg:px-28 lg:pb-32 lg:pt-20 w-full min-h-screen bg-cover bg-no-repeat bg-wallpaper3 mt-2' ref={about_container}>
             <div className='py-5 flex justify-between items-center flex-col lg:flex-row'>
                 <div className='w-full lg:w-[40%] opacity-1'>
                     <AutoplaySlider />

@@ -20,14 +20,17 @@ const SideBar = ({ bars }) => {
         <>
             {/* Overlay with fade effect */}
             <div
-                className={`fixed inset-0 bg-[rgba(96,90,249,0.5)] z-[500] transition-opacity duration-500 ${isVisible ? 'opacity-100' : 'opacity-0'
+                // className={`fixed inset-0 bg-[rgba(96,90,249,0.5)] z-[500] transition-opacity duration-500 ${isVisible ? 'opacity-100' : 'opacity-0'
+                className={`fixed inset-0 bg-[rgba(249,90,90,0.5)] z-[500] transition-opacity duration-500 ${isVisible ? 'opacity-100' : 'opacity-0'
                     }`}
                 onClick={closeSidebar}
             ></div>
 
             {/* Sidebar with width transition */}
             <div
-                className={`fixed top-0 right-0 h-full bg-[rgb(96,90,249)] shadow-xl z-[1000] flex flex-col transition-[width] duration-500 ${isVisible ? 'w-[100vw] md:w-[80vw] lg:w-[20vw]' : 'w-0'
+                className={`fixed top-0 right-0 h-full bg-[rgb(249,90,90)] shadow-xl z-[1000] flex flex-col transition-[width] duration-500 ${isVisible ? 'w-[100vw] md:w-[80vw] lg:w-[20vw]' : 'w-0'
+
+                    // className={`fixed top-0 right-0 h-full bg-[rgb(96,90,249)] shadow-xl z-[1000] flex flex-col transition-[width] duration-500 ${isVisible ? 'w-[100vw] md:w-[80vw] lg:w-[20vw]' : 'w-0'
                     }`}
             >
                 <div className="p-5 flex justify-end">

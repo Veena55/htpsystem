@@ -1,19 +1,23 @@
 import React from 'react';
 import { FaCode, FaDesktop, FaLaptopCode, FaTools, FaTint, FaMicrochip, FaFaucet } from 'react-icons/fa';
 import { BsTools } from 'react-icons/bs';
-import { GiWaterDrop, GiWaterRecycling } from 'react-icons/gi';
+import { GiCctvCamera, GiWaterRecycling } from 'react-icons/gi';
 import { MdBatteryChargingFull } from 'react-icons/md';
 import { BiNetworkChart } from 'react-icons/bi';
+import { FaHandHoldingMedical } from 'react-icons/fa6';
+import { GrVmMaintenance } from 'react-icons/gr'
+import { CgSmartHomeBoiler } from 'react-icons/cg'
 
 const Wallpaper = () => {
     const iconsArray = [
         <FaCode />, <FaDesktop />, <FaLaptopCode />, <BiNetworkChart />, // Web Dev
         <BsTools />, <FaTools />, <FaMicrochip />, <MdBatteryChargingFull />, // Electronics Repair
-        <GiWaterDrop />, <FaTint />, <GiWaterRecycling />, <FaFaucet /> // Water Purification
+        <FaTint />, <GiWaterRecycling />, <FaFaucet />, // Water Purification,
+        <FaHandHoldingMedical />, <GiCctvCamera />, <GrVmMaintenance />, <CgSmartHomeBoiler />
     ];
 
     // Generate icons with random positions and sizes
-    const icons = Array.from({ length: 50 }).map(() => iconsArray[Math.floor(Math.random() * iconsArray.length)]);
+    const icons = Array.from({ length: 80 }).map(() => iconsArray[Math.floor(Math.random() * iconsArray.length)]);
 
     return (
         <div className='absolute inset-0 w-full h-screen overflow-hidden bg-theme1'>

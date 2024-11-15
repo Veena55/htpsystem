@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import logo from '../assets/htpsLogo.png';
+// import logo from '../assets/htpsLogo.png';
+import logo from '../assets/htps.png';
 import { HiMiniBars3BottomRight } from 'react-icons/hi2';
 import SideBar from './SideBar';
 
@@ -10,7 +11,7 @@ export const Navbar = () => {
         <>
             <div className="flex justify-between items-start px-10 pt-2 py-5 text-theme2 relative z-50">
                 <div>
-                    <img src={logo} alt="htpsystem-logo" width={80} />
+                    <img src={logo} alt="htpsystem-logo" width={180} />
                 </div>
                 <div className="mt-5">
                     {showBars && (
