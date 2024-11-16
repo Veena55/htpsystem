@@ -6,7 +6,7 @@ import logo from '../assets/htps.png'
 const Footer = () => {
     return (
         <>
-            <div className='bg-themeLight text-white p-10 lg:py-20 lg:px-32'>
+            <div className='bg-themeLight text-white p-10 lg:py-20 lg:px-32' id='contact'>
                 <div className="grid grid-col-2 md:grid-cols-2 lg:grid-cols-5 justify-start lg:justify-between lg:gap-10">
                     <div>
                         <img src={logo} alt="htpsystem-logo" className='scale-105' width={150} height={80} />
@@ -41,9 +41,14 @@ const Footer = () => {
                     <div>
                         <h2 className='text-lg font-semibold'>Our Services</h2>
                         <div className="lg:pt-1 text-slate-300">
-                            <p className='text-md text-justify lg:pt-4'>Hardware & Sofware</p>
-                            <p className='text-md text-justify lg:pt-4'>Electronics Repair</p>
-                            <p className='text-md text-justify lg:pt-4'>Water Purifiring</p>
+                            <p className='text-md text-left lg:pt-4'>All Brand Hearing Aids - Siemens, ALPS, Etc.</p>
+                            <p className='text-md text-left lg:pt-4'>Medical & Surgical & OT Equipments</p>
+                            <p className='text-md text-left lg:pt-4'>Computer Peripheral & CCTV Camera</p>
+                            <p className='text-md text-left lg:pt-4'>RO Plant & Health Products</p>
+                            <p className='text-md text-left lg:pt-4'>Industrial Laundry Machine & Power Products</p>
+                            <p className='text-md text-left lg:pt-4'>Medical Gas & Oxygen Gas Pipeline Project</p>
+                            <p className='text-md text-left lg:pt-4'>Sales & Services & Maintanance, AMC</p>
+                            <p className='text-md text-left lg:pt-4'>Dental Chair & Sterilizer/Autoclave, Boiler</p>
                         </div>
                     </div>
                     <div>

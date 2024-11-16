@@ -34,7 +34,7 @@ const serviceList = [{
     "gap": "lg:mt-24"
 }, {
     "logo": <MdOutlineLocalLaundryService className="text-3xl lg:text-4xl" />,
-    "title": "Industrial Laundry Machine & Power Products ",
+    "title": "Industrial Laundry Machine & Power Products",
     "content": "We provide expert repair and maintenance solutions for industrial laundry equipment and power products, ensuring maximum efficiency and minimal downtime for your business. ",
     "gap": "mt-0"
 },
@@ -57,14 +57,14 @@ const serviceList = [{
 },
 {
     "logo": <CgSmartHomeBoiler className="text-3xl lg:text-4xl" />,
-    "title": "Dental Chair & Sterilizer/Autoclave, Boiler ",
+    "title": "Dental Chair & Sterilizer/Autoclave, Boiler",
     "content": "We specialize in repairing dental chairs, sterilizers/autoclaves, and boilers, ensuring that your equipment remains in top working condition. Our skilled technicians provide reliable, efficient repair and maintenance services to minimize downtime and ensure smooth operations in your dental or healthcare facility.",
     "gap": "mt-0"
 },
 {
     "logo": <TbFreezeRow className="text-3xl lg:text-4xl" />,
     "title": "D2H & Deep Frizer & A C, Etc.",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas laboriosam rerum temporibus ea facilis, provident sapiente itaque error odio expedita autem, quos voluptates, est quia earum ipsam et dicta necessitatibus",
+    "content": "We offer professional repair services for D2H systems, deep freezers, air conditioners, and more. Our skilled technicians ensure quick and reliable solutions to keep your appliances running efficiently, delivering comfort and convenience for your home or business.",
     "gap": "lg:mt-24"
 }
 ]
@@ -111,7 +111,7 @@ export const Services = () => {
     }, []);
 
     return (
-        <div className='bg-theme1 text-center pt-10 pb-32 px-32'>
+        <div className='bg-theme1 text-center pt-10 pb-32 px-32' id='services'>
             <h2 className='text-4xl text-htpSystem font-medium'>Services</h2>
             <div className="relative min-h-screen my-5" ref={service}>
                 <div className='w-1 min-h-screen bg-white absolute left-0 lg:left-1/2 lg:right-1/2 bottom-0 top-10'></div>

@@ -8,7 +8,7 @@ export const ServiceCard = ({ logo, title, gap, content }) => {
             </div>
             <div>
                 <h1 className='text-theme2 text-left text-xl lg:text-2xl font-medium'>{title}</h1>
-                <p className='text-white text-justify pt-2 text-sm md:text-md lg:text-lg leading-7'>{content}</p>
+                <p className='text-white text-justify pt-2 text-sm md:text-md lg:text-[17px] leading-7'>{content}</p>
             </div>
         </div>
     )

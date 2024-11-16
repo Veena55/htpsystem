@@ -128,7 +128,7 @@ export const Header = () => {
 
 
     return (
-        <div className='pt-5 pb-20 relative bg-theme1'>
+        <div className='pt-5 pb-20 relative bg-theme1' id='home'>
             <div className="absolute inset-0">
                 <Wallpaper />
             </div>
