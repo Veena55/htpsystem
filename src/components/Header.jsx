@@ -140,7 +140,7 @@ export const Header = () => {
                         {/* <h1 className=" text-center text-8xl font-extrabold bg-clip-text text-transparent hover:bg-gradient-to-tr transition-all duration-1000 bg-gradient-to-l from-indigo-400 via-htpSystem to-white">HTPSYSTEM</h1> */}
                         <h1 className="text-center opacity-0 text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold bg-clip-text text-transparent pb-6 bg-grad"
                             ref={title}>
-                            HTPS
+                            HtpSystem
                         </h1>
                         <p className='w-[80%] md:w-2/4 lg:w-2/3 mx-auto text-slate-400 pb-10 text-base sm:text-sm md:text-md lg:text-lg leading-6 text-center pt-2 opacity-0'
                             ref={content}
