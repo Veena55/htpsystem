@@ -111,7 +111,7 @@ export const Services = () => {
     }, []);
 
     return (
-        <div className='bg-theme1 text-center pt-10 pb-32 px-32' id='services'>
+        <div className='bg-theme1 text-center p-5 lg:pt-10 lg:pb-32 lg:px-32 overflow-y-hidden' id='services'>
             <h2 className='text-4xl text-htpSystem font-medium'>Services</h2>
             <div className="relative min-h-screen my-5" ref={service}>
                 <div className='w-1 min-h-screen bg-white absolute left-0 lg:left-1/2 lg:right-1/2 bottom-0 top-10'></div>

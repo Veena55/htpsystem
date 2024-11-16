@@ -31,7 +31,7 @@ const Footer = () => {
                         </div> */}
                     </div>
                     <div>
-                        <h2 className='text-lg font-semibold'>Cities</h2>
+                        <h2 className='text-lg font-semibold pt-2'>Cities</h2>
                         <div className="lg:pt-1 text-slate-300">
                             <p className='text-md text-justify lg:pt-4'>Varanasi</p>
                             <p className='text-md text-justify lg:pt-4'>Gorakhpur</p>
@@ -39,20 +39,20 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <h2 className='text-lg font-semibold'>Our Services</h2>
+                        <h2 className='text-lg font-semibold pt-2'>Our Services</h2>
                         <div className="lg:pt-1 text-slate-300">
-                            <p className='text-md text-left lg:pt-4'>All Brand Hearing Aids - Siemens, ALPS, Etc.</p>
-                            <p className='text-md text-left lg:pt-4'>Medical & Surgical & OT Equipments</p>
-                            <p className='text-md text-left lg:pt-4'>Computer Peripheral & CCTV Camera</p>
-                            <p className='text-md text-left lg:pt-4'>RO Plant & Health Products</p>
-                            <p className='text-md text-left lg:pt-4'>Industrial Laundry Machine & Power Products</p>
-                            <p className='text-md text-left lg:pt-4'>Medical Gas & Oxygen Gas Pipeline Project</p>
-                            <p className='text-md text-left lg:pt-4'>Sales & Services & Maintanance, AMC</p>
-                            <p className='text-md text-left lg:pt-4'>Dental Chair & Sterilizer/Autoclave, Boiler</p>
+                            <p className='text-md text-left pb-2 lg:pt-4'>All Brand Hearing Aids - Siemens, ALPS, Etc.</p>
+                            <p className='text-md text-left pb-2 lg:pt-4'>Medical & Surgical & OT Equipments</p>
+                            <p className='text-md text-left pb-2 lg:pt-4'>Computer Peripheral & CCTV Camera</p>
+                            <p className='text-md text-left pb-2 lg:pt-4'>RO Plant & Health Products</p>
+                            <p className='text-md text-left pb-2 lg:pt-4'>Industrial Laundry Machine & Power Products</p>
+                            <p className='text-md text-left pb-2 lg:pt-4'>Medical Gas & Oxygen Gas Pipeline Project</p>
+                            <p className='text-md text-left pb-2 lg:pt-4'>Sales & Services & Maintanance, AMC</p>
+                            <p className='text-md text-left pb-2 lg:pt-4'>Dental Chair & Sterilizer/Autoclave, Boiler</p>
                         </div>
                     </div>
                     <div>
-                        <h2 className='text-lg font-semibold'>Company</h2>
+                        <h2 className='text-lg font-semibold pt-2'>Company</h2>
                         <div className="lg:pt-1 text-slate-300">
                             <p className='text-md text-justify lg:pt-4'>About Us</p>
                             {/* <p className='text-md text-justify lg:pt-4'>Careers</p> */}

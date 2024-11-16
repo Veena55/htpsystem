@@ -53,7 +53,7 @@ export const About = () => {
     }, []);
 
     return (
-        <div className='p-10 lg:px-28 lg:pb-32 lg:pt-20 w-full min-h-screen bg-cover bg-no-repeat bg-wallpaper3 mt-2' ref={about_container} id='about'>
+        <div className='p-10 lg:px-28 lg:pb-32 lg:pt-20 w-full bg-cover bg-no-repeat bg-wallpaper3 mt-2' ref={about_container} id='about'>
             <div className='py-5 flex justify-between items-center flex-col lg:flex-row'>
                 <div className='w-full lg:w-[40%] opacity-1'>
                     <AutoplaySlider />
@@ -70,7 +70,7 @@ export const About = () => {
                     <p className='pt-5 text-slate-400 leading-7'>
                         At HTP System, our customers are at the heart of everything we do. We take pride in offering the best and most effective services tailored to meet your unique needs—all at highly cost-efficient rates. Our commitment to quality, reliability, and affordability has earned us the trust and loyalty of countless clients across diverse sectors.
                     </p>
-                    <div className='flex justify-start items-center gap-7 mt-10'>
+                    <div className='flex justify-center items-center flex-wrap gap-5 lg:gap-7 mt-20 lg:mt-10'>
                         <div className='flex flex-col text-theme2 gap-2 bg-themeLight text-center px-5 py-3 rounded-lg shadow-lg shadow-theme1'>
                             <h2 className='font-bold text-3xl' ref={counter[0]}>{counters[0]}+</h2>
                             <p className='text-sm'>Total No. of Orders</p>
