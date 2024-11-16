@@ -52,7 +52,7 @@ export const About = () => {
 
     }, []);
     return (
-        <div className='p-10 lg:px-28 lg:pb-32 lg:pt-20 w-full bg-cover bg-no-repeat bg-[url("/src/assets/wallpaper3.png")] mt-2' ref={about_container} id='about'>
+        <div className='p-10 lg:px-28 lg:pb-32 lg:pt-20 w-full bg-cover bg-no-repeat lg:bg-[url("/src/assets/wallpaper3.png")] mt-2' ref={about_container} id='about'>
             <div className='py-5 flex justify-between items-center flex-col lg:flex-row'>
                 <div className='w-full lg:w-[40%] opacity-1'>
                     <AutoplaySlider />
