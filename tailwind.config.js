@@ -13,7 +13,7 @@ export default {
         // 'grad': 'linear-gradient(to right, #605af9 40%,#c9c8ff 80%,#d2d2d2)',
         'grad': 'linear-gradient(to right, #F8311E 40%,#FDC444 80%,#FC9E28)',
         // 'grad': 'linear-gradient(to right, #605af9 20%, #c9c8ff 50%, #d2d2d2 80%)',
-        'wallpaper3': 'url("./src/assets/wallpaper3.png")'
+        'wallpaper3': 'url("/src/assets/wallpaper3.png")'
         // 'wallpaper1': 'url("./src/assets/wallpaper2.png")'
       },
       colors: {
