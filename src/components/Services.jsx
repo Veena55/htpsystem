@@ -91,13 +91,13 @@ export const Services = () => {
         // Slow down pointer animation
         gsap.fromTo(
             pointer.current,
-            { top: "2%" },
+            { top: "0%" },
             {
                 top: "100%",
                 scrollTrigger: {
                     trigger: service.current,
-                    start: "top 5%",
-                    end: "bottom 80%",
+                    start: "top 0%",
+                    end: "bottom 100%",
                     scrub: 1, // Increased scrub for smoother and slower animation
                     ease: "power2.out", // Ease for smoother movement
                 },
@@ -107,13 +107,13 @@ export const Services = () => {
         // Slow down activeBar animation
         gsap.fromTo(
             activeBar.current,
-            { top: "2%" },
+            { top: "0%" },
             {
                 height: "100%",
                 scrollTrigger: {
                     trigger: service.current,
-                    start: "top 5%",
-                    end: "bottom 80%",
+                    start: "top 0%",
+                    end: "bottom 100%",
                     scrub: 1, // Increased scrub for smoother and slower animation
                     ease: "power2.out", // Ease for smoother movement
                 },
