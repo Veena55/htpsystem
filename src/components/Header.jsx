@@ -128,13 +128,13 @@ export const Header = () => {
 
 
     return (
-        <div className='pt-5 pb-20 relative bg-theme1' id='home'>
+        <div className='pt-2 pb-28 lg:pt-5 lg:pb-20 relative bg-theme1' id='home'>
             <div className="absolute inset-0">
                 <Wallpaper />
             </div>
             <div>
                 <Navbar />
-                <div className="relative flex justify-center border-[3px] border-dashed border-htpSystem p-10 rounded-xl mx-auto w-[80vw] sm:w-[60vw] lg:w-[50vw]"
+                <div className="relative flex justify-center my-10 border-[3px] border-dashed border-htpSystem lg:p-10 rounded-xl mx-auto w-[80vw] sm:w-[60vw] lg:w-[50vw]"
                     ref={header}>
                     <div className="mt-10 5 mx-auto">
                         {/* <h1 className=" text-center text-8xl font-extrabold bg-clip-text text-transparent hover:bg-gradient-to-tr transition-all duration-1000 bg-gradient-to-l from-indigo-400 via-htpSystem to-white">HTPSYSTEM</h1> */}
@@ -142,7 +142,7 @@ export const Header = () => {
                             ref={title}>
                             HtpSystem
                         </h1>
-                        <p className='w-[80%] md:w-2/4 lg:w-2/3 mx-auto text-slate-400 pb-10 text-base sm:text-sm md:text-md lg:text-lg leading-6 text-center pt-2 opacity-0'
+                        <p className='w-[85%] overflow-hidden md:w-2/4 lg:w-2/3 mx-auto text-slate-400 pb-10 text-base sm:text-sm md:text-md lg:text-lg leading-6 text-center pt-1 lg:pt-2 opacity-0'
                             ref={content}
                         >All in one solution in one platform. Everything you need, all in one place. Simplify, streamline, and succeed on a single platform</p>
                     </div>

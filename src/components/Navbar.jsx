@@ -9,7 +9,7 @@ export const Navbar = () => {
 
     return (
         <>
-            <div className="flex justify-between items-start px-10 pt-2 py-5 text-theme2 relative z-50">
+            <div className="flex justify-between items-start pb-7 px-5 lg:px-10 lg:pt-2 lg:py-5 text-theme2 relative z-50">
                 <div>
                     <img src={logo} alt="htpsystem-logo" width={180} />
                 </div>
