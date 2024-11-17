@@ -139,27 +139,17 @@ export const Services = () => {
                 </div>
             </div> */}
             <div className="relative min-h-screen my-5 flex justify-center items-start" ref={service}>
-                {/* Background bar */}
-                <div className="w-1 min-h-full bg-gray-300 absolute left-1/2 transform -translate-x-1/2"></div>
-
-                {/* Animated bar */}
-                <div
-                    className="w-1 bg-htpSystem absolute left-1/2 transform -translate-x-1/2 top-10 h-0"
-                    ref={activeBar}
-                ></div>
-
-                {/* Pointer */}
-                <div
-                    className="w-7 h-7 z-20 bg-white rounded-full absolute left-1/2 transform -translate-x-1/2 border-htpSystem border-[5px]"
-                    ref={pointer}
-                ></div>
+                <div className='w-1 min-h-screen bg-white absolute left-0 lg:left-1/2 lg:right-1/2 bottom-0 top-10'></div>
+                <div className='w-1 bg-htpSystem absolute left-0 lg:left-1/2 lg:right-1/2 top-10 h-0' ref={activeBar}></div>
+                <div className='w-7 h-7 z-20 bg-white rounded-full absolute left-0 lg:left-1/2 -translate-x-3 lg:right-1/2 bottom-0 top-10 border-theme2 border-[5px]'
+                    ref={pointer}></div>
 
                 {/* Service Cards */}
                 <div className="grid lg:grid-cols-2 gap-y-20 lg:gap-x-32 px-8 py-16 w-full">
                     {serviceList.map((item, index) => (
                         <div
                             key={index}
-                            className={`flex items-start space-x-4 ${item.gap} ${index % 2 === 0 ? "text-right" : "text-left"
+                            className={`flex items-start space-x-4 text-left ${item.gap} ${index % 2 === 0 ? "lg:text-right" : "lg:text-left"
                                 }`}
                         >
                             <div className="text-htpSystem bg-white p-2 rounded-md">{item.logo}</div>
