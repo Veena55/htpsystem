@@ -7,7 +7,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import { CgSmartHomeBoiler } from 'react-icons/cg'
 import { GrResources, GrVmMaintenance } from 'react-icons/gr'
-import { GiCctvCamera } from 'react-icons/gi'
+import { GiCctvCamera, GiTeacher } from 'react-icons/gi'
 
 const serviceList = [{
     "logo": <MdOutlineHearing className="text-3xl lg:text-4xl" />,
@@ -74,7 +74,7 @@ const serviceList = [{
     "gap": "lg:mt-0"
 },
 {
-    "logo": <GrResources className="text-3xl lg:text-4xl" />,
+    "logo": <GiTeacher className="text-3xl lg:text-4xl" />,
     "title": "Teacher Services & Technical Support Services ",
     "content": "We offer comprehensive Teacher Services to empower educators with modern tools and training, alongside reliable Technical Support Services for seamless installation, maintenance, and troubleshooting of technology systems.",
     "gap": "lg:mt-24"
