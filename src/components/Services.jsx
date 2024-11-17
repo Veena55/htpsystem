@@ -30,7 +30,7 @@ const serviceList = [{
 {
     "logo": <MdOutlineHealthAndSafety className="text-3xl lg:text-4xl" />,
     "title": "RO Plant & Health Products, Water Treatment Plant",
-    "content": "CoLorem ipsum dolor sit amet, consectetur adipisicing elit. Quas laboriosam rerum temporibus ea facilis, provident sapiente itaque error odio expedita autem, quos voluptates, est quia earum ipsam et dicta necessitatibus",
+    "content": "Offering high-quality RO plants and health products designed to provide safe, purified water and ensure effective water treatment solutions for residential and commercial needs.",
     "gap": "lg:mt-24"
 }, {
     "logo": <MdOutlineLocalLaundryService className="text-3xl lg:text-4xl" />,
@@ -139,9 +139,9 @@ export const Services = () => {
                 </div>
             </div> */}
             <div className="relative min-h-screen my-5 flex justify-center items-start" ref={service}>
-                <div className='w-1 min-h-screen bg-white absolute left-0 lg:left-1/2 lg:right-1/2 bottom-0 top-10'></div>
-                <div className='w-1 bg-htpSystem absolute left-0 lg:left-1/2 lg:right-1/2 top-10 h-0' ref={activeBar}></div>
-                <div className='w-7 h-7 z-20 bg-white rounded-full absolute left-0 lg:left-1/2 -translate-x-3 lg:right-1/2 bottom-0 top-10 border-theme2 border-[5px]'
+                <div className='w-1 min-h-screen bg-white absolute left-0 lg:left-1/2 lg:right-1/2 bottom-0 top-0'></div>
+                <div className='w-1 bg-htpSystem absolute left-0 lg:left-1/2 lg:right-1/2 top-0 h-0' ref={activeBar}></div>
+                <div className='w-7 h-7 z-20 bg-white rounded-full absolute left-0 lg:left-1/2 -translate-x-3 lg:right-1/2 bottom-0 top-0 border-theme2 border-[5px]'
                     ref={pointer}></div>
 
                 {/* Service Cards */}
