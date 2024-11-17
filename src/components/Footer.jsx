@@ -49,12 +49,16 @@ const Footer = () => {
                             <p className='text-md text-left pb-2 lg:pt-4'>Medical Gas & Oxygen Gas Pipeline Project</p>
                             <p className='text-md text-left pb-2 lg:pt-4'>Sales & Services & Maintanance, AMC</p>
                             <p className='text-md text-left pb-2 lg:pt-4'>Dental Chair & Sterilizer/Autoclave, Boiler</p>
+                            <p className='text-md text-left pb-2 lg:pt-4'>Teacher Services & Technical Support Services</p>
+                            <p className='text-md text-left pb-2 lg:pt-4'>Human Resource and
+                                Man Power Services</p>
+                            <p className='text-md text-left pb-2 lg:pt-4'>Central Oxygen and Suction Pipeline System</p>
                         </div>
                     </div>
                     <div>
                         <h2 className='text-lg font-semibold pt-2'>Company</h2>
                         <div className="lg:pt-1 text-slate-300">
-                            <p className='text-md text-justify lg:pt-4'>About Us</p>
+                            <a href="#about" className='text-md text-justify lg:pt-4'>About Us</a>
                             {/* <p className='text-md text-justify lg:pt-4'>Careers</p> */}
                         </div>
                     </div>

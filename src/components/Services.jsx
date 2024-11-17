@@ -6,7 +6,7 @@ import { TbAirConditioning, TbFreezeRow } from 'react-icons/tb'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 import { CgSmartHomeBoiler } from 'react-icons/cg'
-import { GrVmMaintenance } from 'react-icons/gr'
+import { GrResources, GrVmMaintenance } from 'react-icons/gr'
 import { GiCctvCamera } from 'react-icons/gi'
 
 const serviceList = [{
@@ -23,13 +23,13 @@ const serviceList = [{
 },
 {
     "logo": <GiCctvCamera className="text-3xl lg:text-4xl" />,
-    "title": "Computer Peripheral & CCTV Camera",
+    "title": "Computer Peripheral & CCTV Security Camera",
     "content": "Your trusted source for high-quality computer peripherals and CCTV cameras, ensuring seamless connectivity and enhanced security for home and business.",
     "gap": "mt-0"
 },
 {
     "logo": <MdOutlineHealthAndSafety className="text-3xl lg:text-4xl" />,
-    "title": "RO Plant & Health Products",
+    "title": "RO Plant & Health Products, Water Treatment Plant",
     "content": "CoLorem ipsum dolor sit amet, consectetur adipisicing elit. Quas laboriosam rerum temporibus ea facilis, provident sapiente itaque error odio expedita autem, quos voluptates, est quia earum ipsam et dicta necessitatibus",
     "gap": "lg:mt-24"
 }, {
@@ -40,7 +40,7 @@ const serviceList = [{
 },
 {
     "logo": <TbAirConditioning className="text-3xl lg:text-4xl" />,
-    "title": "Medical Gas & Oxygen Gas Pipeline Project",
+    "title": "Medical Gas & Central Oxygen and Suction Pipeline System",
     "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas laboriosam rerum temporibus ea facilis, provident sapiente itaque error odio expedita autem, quos voluptates, est quia earum ipsam et dicta necessitatibus",
     "gap": "lg:mt-24"
 }, {
@@ -65,6 +65,18 @@ const serviceList = [{
     "logo": <TbFreezeRow className="text-3xl lg:text-4xl" />,
     "title": "D2H & Deep Frizer & A C, Etc.",
     "content": "We offer professional repair services for D2H systems, deep freezers, air conditioners, and more. Our skilled technicians ensure quick and reliable solutions to keep your appliances running efficiently, delivering comfort and convenience for your home or business.",
+    "gap": "lg:mt-24"
+},
+{
+    "logo": <GrResources className="text-3xl lg:text-4xl" />,
+    "title": "Human Resource and Man Power Services",
+    "content": "We offer professional repair services for D2H systems, deep freezers, air conditioners, and more. Our skilled technicians ensure quick and reliable solutions to keep your appliances running efficiently, delivering comfort and convenience for your home or business.",
+    "gap": "lg:mt-0"
+},
+{
+    "logo": <GrResources className="text-3xl lg:text-4xl" />,
+    "title": "Teacher Services & Technical Support Services ",
+    "content": "We offer comprehensive Teacher Services to empower educators with modern tools and training, alongside reliable Technical Support Services for seamless installation, maintenance, and troubleshooting of technology systems.",
     "gap": "lg:mt-24"
 }
 ]
