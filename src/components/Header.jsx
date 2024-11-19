@@ -134,9 +134,9 @@ export const Header = () => {
             </div>
             <div>
                 <Navbar />
-                <div className="relative flex justify-center my-10 border-[3px] border-dashed border-htpSystem lg:p-10 rounded-xl mx-auto w-[80vw] sm:w-[60vw] lg:w-[50vw]"
+                <div className="relative flex justify-center m-5 border-[3px] border-dashed border-htpSystem lg:p-10 rounded-xl mx-auto w-[80vw] sm:w-[60vw] lg:w-[55vw]"
                     ref={header}>
-                    <div className="mt-10 5 mx-auto">
+                    <div className="mt-10 mx-auto">
                         {/* <h1 className=" text-center text-8xl font-extrabold bg-clip-text text-transparent hover:bg-gradient-to-tr transition-all duration-1000 bg-gradient-to-l from-indigo-400 via-htpSystem to-white">HTPSYSTEM</h1> */}
                         <h1 className="text-center opacity-0 text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold bg-clip-text text-transparent pb-6 bg-grad"
                             ref={title}>
