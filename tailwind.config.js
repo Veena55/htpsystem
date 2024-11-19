@@ -23,6 +23,9 @@ export default {
         'htpSystem': '#F8311E'
         // 'htpSystem': '#605af9'
       },
+      boxShadow: {
+        custom: '0 -4px 6px .7px red' // Shadow appears only at the top'
+      },
     },
   },
   plugins: [],
