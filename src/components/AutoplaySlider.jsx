@@ -28,22 +28,34 @@ const AutoplaySlider = () => {
       speed={600}  // Smooth transition speed
     >
       <SwiperSlide>
-        <img src={service7} alt="Slide 1" />
+        <div className='w-[90%]'>
+          <img src={service7} className='w-full' alt="Slide 1" />
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={service1} alt="Slide 2" />
+        <div className='w-[85%]'>
+          <img src={service1} className='w-full' alt="Slide 2" />
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={service3} alt="Slide 3" />
+        <div className='w-[85%]'>
+          <img src={service3} className='w-full' alt="Slide 3" />
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={service4} alt="Slide 4" />
+        <div className='w-[90%]'>
+          <img src={service4} className='w-full' alt="Slide 4" />
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={service5} alt="Slide 4" />
+        <div className='w-[90%]'>
+          <img src={service5} className='w-full' alt="Slide 4" />
+        </div>
       </SwiperSlide>
       <SwiperSlide>
-        <img src={service6} alt="Slide 4" />
+        <div className='w-[90%]'>
+          <img src={service6} className='w-full' alt="Slide 4" />
+        </div>
       </SwiperSlide>
     </Swiper>
   );

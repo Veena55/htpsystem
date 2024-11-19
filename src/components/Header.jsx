@@ -128,7 +128,7 @@ export const Header = () => {
 
 
     return (
-        <div className='pt-2 pb-28 lg:pt-5 lg:pb-20 relative bg-theme1' id='home'>
+        <div className='pt-2 pb-10 lg:pt-5 lg:pb-20 relative bg-theme1' id='home'>
             <div className="absolute inset-0">
                 <Wallpaper />
             </div>
@@ -142,7 +142,7 @@ export const Header = () => {
                             ref={title}>
                             HtpSystem
                         </h1>
-                        <p className='w-[85%] overflow-hidden md:w-2/4 lg:w-2/3 mx-auto text-slate-400 pb-10 text-base sm:text-sm md:text-md lg:text-lg leading-6 text-center pt-1 lg:pt-2 opacity-0'
+                        <p className='w-[85%] overflow-hidden md:w-2/4 lg:w-3/4 mx-auto text-slate-400 pb-10 text-base sm:text-sm md:text-md lg:text-lg leading-6 text-center pt-1 lg:pt-2 opacity-0'
                             ref={content}
                         >All in one solution in one platform. Everything you need, all in one place. Simplify, streamline, and succeed on a single platform</p>
                     </div>

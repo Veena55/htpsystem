@@ -59,27 +59,27 @@ export const About = () => {
                     <AutoplaySlider />
                 </div>
                 <div
-                    className='text-white text-sm md:text-md lg:text-[17px] leading-7 text-justify md:w-3/4 lg:w-1/2 opacity-0' ref={about}
+                    className='text-white text-sm md:text-md lg:text-[17px] leading-7 text-justify md:w-3/4 lg:w-1/2 lg:opacity-0' ref={about}
                 >
-                    <div className='text-4xl  font-medium inline-block'><span className='text-white pr-2 border-b-4 border-b-red-500'>About</span><span className='border-b-4 border-b-white text-htpSystem'>Us</span></div>
+                    <div className='text-2xl lg:text-4xl font-medium inline-block'><span className='text-white pr-2 border-b-4 border-b-red-500'>About</span><span className='border-b-4 border-b-white text-htpSystem'>Us</span></div>
 
-                    <p className='lg:pt-10 text-slate-400 leading-7'>
+                    <p className='pt-7 lg:pt-10 text-slate-400 leading-7'>
                         Welcome to HINDUSTAN TECHNO AND POWER SYSTEM (HTP System), a trusted leader in the tech and power industry since 19.. For over .. years, we have been dedicated to delivering innovative and sustainable solutions that empower businesses and transform industries
                     </p>
                     <p className='pt-5 text-slate-400 leading-7'>
                         At HTP System, our customers are at the heart of everything we do. We take pride in offering the best and most effective services tailored to meet your unique needs—all at highly cost-efficient rates. Our commitment to quality, reliability, and affordability has earned us the trust and loyalty of countless clients across diverse sectors.
                     </p>
-                    <div className='flex justify-start items-center flex-wrap gap-5 lg:gap-7 mt-20 lg:mt-10'>
+                    <div className='flex justify-start items-center flex-wrap gap-5 lg:gap-7 mt-5 lg:mt-10'>
                         <div className='flex flex-col w-full lg:w-auto text-theme2 gap-2 bg-themeLight text-center px-5 py-3 rounded-lg shadow-lg shadow-theme1'>
-                            <h2 className='font-bold text-3xl' ref={counter[0]}>{counters[0]}+</h2>
+                            <h2 className='font-bold text-2xl lg:text-3xl' ref={counter[0]}>{counters[0]}+</h2>
                             <p className='text-sm'>Total No. of Orders</p>
                         </div>
                         <div className='flex flex-col w-full lg:w-auto text-theme2 gap-2 bg-themeLight text-center px-5 py-3 rounded-lg shadow-lg shadow-theme1'>
-                            <h2 className='font-bold text-3xl' ref={counter[1]}>{counters[1]}+</h2>
+                            <h2 className='font-bold text-2xl lg:text-3xl' ref={counter[1]}>{counters[1]}+</h2>
                             <p className='text-sm'>Above 5+ ratings</p>
                         </div>
                         <div className='flex flex-col w-full lg:w-auto text-theme2 gap-2 bg-themeLight text-center px-5 py-3 rounded-lg shadow-lg shadow-theme1'>
-                            <h2 className='font-bold text-3xl' ref={counter[2]}>{counters[2]}+</h2>
+                            <h2 className='font-bold text-2xl lg:text-3xl' ref={counter[2]}>{counters[2]}+</h2>
                             <p className='text-sm'>Available in Areas</p>
                         </div>
                     </div>

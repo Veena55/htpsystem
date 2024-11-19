@@ -20,7 +20,7 @@ const Wallpaper = () => {
     const icons = Array.from({ length: 80 }).map(() => iconsArray[Math.floor(Math.random() * iconsArray.length)]);
 
     return (
-        <div className='absolute inset-0 w-full h-screen overflow-hidden bg-theme1'>
+        <div className='absolute min-h-screen w-full overflow-x-hidden bg-theme1'>
             {icons.map((icon, index) => (
                 <div
                     key={index}
