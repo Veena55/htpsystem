@@ -53,13 +53,13 @@ export const About = () => {
     }, []);
     return (
         // <div className='p-10 lg:px-28 lg:pb-32 lg:pt-20 w-full bg-cover bg-no-repeat lg:bg-[url("/src/assets/wallpaper3.png")] mt-2' ref={about_container} id='about'>
-        <div className='p-10 lg:px-28 lg:pb-32 lg:pt-20 w-full bg-cover bg-no-repeat lg:bg-[url("/src/assets/wallpaper3.png")] mt-2' ref={about_container} id='about'>
+        <div className='p-10 lg:px-16 lg:pb-32 lg:pt-20 w-full bg-cover bg-no-repeat lg:bg-[url("/src/assets/wallpaper3.png")] mt-2' ref={about_container} id='about'>
             <div className='py-5 flex justify-between items-center flex-col lg:flex-row'>
-                <div className='w-full lg:w-[40%] opacity-1'>
+                <div className='w-full lg:w-[45%] opacity-1'>
                     <AutoplaySlider />
                 </div>
                 <div
-                    className='text-white text-sm md:text-md lg:text-[17px] leading-7 text-justify md:w-3/4 lg:w-1/2 lg:opacity-0' ref={about}
+                    className='text-white text-sm md:text-md lg:text-[17px] leading-7 text-justify md:w-3/4 lg:w-[52%] lg:opacity-0' ref={about}
                 >
                     <div className='text-2xl lg:text-4xl font-medium inline-block'><span className='text-white pr-2 border-b-4 border-b-red-500'>About</span><span className='border-b-4 border-b-white text-htpSystem'>Us</span></div>
 
