@@ -35,7 +35,7 @@ export const serviceList =
                 "logo": <FaSatelliteDish className="text-3xl lg:text-4xl" />,
                 "title": "D2H Services",
                 "content": "Stay connected to your favorite TV channels and entertainment with reliable DTH (Direct-to-Home) services",
-                "list": ['Installation/Unitallation',
+                "list": ['Installation/Unistallation',
                     'Comprehensive Channel Setup',
                     'Signal Issue Resolution',
                     'Set-Top Box Repair',
@@ -108,7 +108,7 @@ export const serviceList =
                 // "logo": <MdOutlineHearing className="text-3xl lg:text-4xl" /> <FontAwesomeIcon icon={faChair} size="2x" />,
                 // "logo": <CgSmartHomeBoiler className="text-3xl lg:text-4xl" />,
                 "logo": <MdOutlineHearing icon={faChair} className="text-3xl lg:text-4xl" />,
-                "title": "Ear Aid Machine",
+                "title": "Hearing Aid Machine",
                 "content": "Hearing aid machines are essential devices that improve hearing for individuals with hearing impairments. And we provide-",
 
                 "list": [
